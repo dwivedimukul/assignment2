@@ -47,12 +47,16 @@ nav ul li a{
 .homered{
 	background-color: red;
 	padding: 30px 10px 13px 10px;
+	text-transform: uppercase;
 
 }
 .divider{
 	background-color: red;
 	height: 5px;
 
+}
+.homeblack{
+	text-transform: uppercase;
 }
 .homeblack:hover{
 	background-color: blue;
@@ -112,7 +116,7 @@ nav ul li a{
 
 footer {
 	position: absolute;
-	bottom: 0;
+	bottom: 15;
 	width: 100%;
 	color: white;
 	text-align: center;
@@ -165,15 +169,35 @@ footer {
 	font-family: 'Raleway', sans-serif;
 	padding: 2% 2% 2% 2%;
 	font-size: 30px;
-	color: red;
+	color: white;
+	border-radius: 25px;
+	opacity: 0.6;
 }
-.container_12
+.container_24
 {
-	
-	margin-right:50px;
+	margin-right:absolute;
 	font-size:20px;
 	font-color: red;
 	float:left;
+	font-family: 'Raleway', sans-serif;
+}
+.color
+{
+	color:white;
+	text-align: justify;
+}
+.grid_8{
+	background-color: black;
+    opacity: 0.6;
+    border-radius: 25px;
 
+}
+.grid_12{
+	background-color: black;
+    opacity: 0.6;
+    border-radius: 25px;
 
+}
+header h2{
+text-transform: uppercase;
 }
